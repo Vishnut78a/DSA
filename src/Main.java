@@ -52,7 +52,7 @@ public static void second_largest_element(int arr[]){
             }else if(arr[i]>smallest && arr[i]<second_smallest){
                 second_smallest=arr[i];
             }
-            System.out.println(i+": largest ="+largest+"\n"+i+": secondlargest = "+second_largest+"\n"+smallest+"\n"+second_smallest`);
+            System.out.println(i+": largest ="+largest+"\n"+i+": secondlargest = "+second_largest+"\n"+smallest+"\n"+second_smallest);
         }
         System.out.print("The largest element in the given array is :"+largest+"\n"+
                 "The second largest element in the given array is: "+second_largest+"\n"+
